@@ -37,6 +37,9 @@ class User < ApplicationRecord
     return false if digest.nil?
     BCrypt::Password.new(digest).is_password?(token)
   end
+  def feed
+    Micropost.where("user_id = ?", id)
+  end
 
 
 
