@@ -44,7 +44,8 @@ class User < ApplicationRecord
 
 
   def activate
-    update_columns(activated: true, activated_at: Time.zone.now)
+    user.update_attribute(:activated,    true)
+    user.update_attribute(:activated_at, Time.zone.now)
 
   end
   def send_activation_email
@@ -72,19 +73,10 @@ class User < ApplicationRecord
 
 
 
-
-
-
-
-
-
-
-
-
   private
 
   def downcase_email
-    self.email.downcase!
+    self.email = email.downcase
   end
 
   def create_activation_digest
