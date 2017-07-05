@@ -1,41 +1,8 @@
-# Ruby on Rails Tutorial sample application
+# Sample_App
+Sample_app is a miniture project for Rails practice. It is based on [this](https://www.railstutorial.org/book/frontmatter) tutorial and includes lots of the new rails concepts I have been learning.
 
-This is the sample application for
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](http://www.railstutorial.org/)
-by [Michael Hartl](http://www.michaelhartl.com/).
-
-## License
-
-All source code in the [Ruby on Rails Tutorial](http://railstutorial.org/)
-is available jointly under the MIT License and the Beerware License. See
-[LICENSE.md](LICENSE.md) for details.
-
-## Getting started
-
-To get started with the app, clone the repo and then install the needed gems:
-
-```
-$ bundle install --without production
-```
-
-Next, migrate the database:
-
-```
-$ rails db:migrate
-```
-
-Finally, run the test suite to verify that everything is working correctly:
-
-```
-$ rails test
-```
-
-If the test suite passes, you'll be ready to run the app in a local server:
-
-```
-$ rails server
-```
-
-For more information, see the
-[*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
+The project is deployed as of June 2017. Check it out [here](https://sample-app-jw.herokuapp.com/). Feel free to login with
+'jose56wonton@gmail.com' and '565656' to test out the functionality. Please keep it PG though :)
+</br></br>
+This project is part of [TheOdinProject's](http://www.theodinproject.com) Rails track.
+The project itself can be seen [here](https://www.theodinproject.com/courses/ruby-on-rails/lessons/associations?ref=lnav)!
